@@ -1,0 +1,113 @@
+General layout adjustments
+.flex {
+    display: flex;
+  }
+  
+  .min-h-screen {
+    min-height: 100vh;
+  }
+  
+  /* Filters Section */
+  .bg-white {
+    background-color: #ffffff;
+  }
+  
+  .border-r {
+    border-right: 1px solid #e5e7eb;
+  }
+  
+  .p-6 {
+    padding: 1.5rem;
+  }
+  
+  /* Main Content Section */
+  .flex-1 {
+    flex: 1;
+  }
+  
+  .overflow-auto {
+    overflow: auto;
+  }
+  
+  .mb-8 {
+    margin-bottom: 2rem;
+  }
+  
+  .max-w-xs {
+    max-width: 20rem;
+  }
+  
+  /* Grid and Card Styles */
+  .grid {
+    display: grid;
+  }
+  
+  .grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  
+  .md\\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  
+  .gap-8 {
+    gap: 2rem;
+  }
+  
+  .course-card {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-card:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transition-shadow {
+    transition: box-shadow 0.3s;
+  }
+  
+  .p-6 {
+    padding: 1.5rem;
+  }
+  
+  .course-image img {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+  }
+  
+  .course-video video {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  
+  /* Pagination Controls */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin-top: 2rem;
+  }
+  
+  .pagination button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: #ffffff;
+  }
+  
+  .bg-indigo-600 {
+    background-color: #4f46e5;
+  }
+  
+  .bg-gray-400 {
+    background-color: #9ca3af;
+  }
+  
+  .text-gray-600 {
+    color: #4b5563;
+  }
+  

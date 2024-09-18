@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function Packes() {
     return (
         <div className="flex flex-col justify-center items-center min-h-screen bg-gray-900 p-4">
@@ -5,8 +6,6 @@ function Packes() {
             <h1 className="text-3xl sm:text-4xl lg:text-3xl font-extrabold text-white text-center mt-20 mb-10 underline decoration-clone decoration-indigo-500 ">
                 <span className="text-indigo-600">Our</span> packages
             </h1>
-
-
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div className="w-full max-w-sm mx-auto rounded-lg overflow-hidden shadow-lg shadow-indigo-500 transition-transform transform hover:scale-105">
                     <div className="p-1 bg-indigo-500"></div>
@@ -61,12 +60,12 @@ function Packes() {
                             </li>
                         </ul>
                     </div>
-                    <a href="**"
+                    <Link to="/signin"
                         className="p-4 flex justify-center items-center">
                         <button className=" cursor-pointer text-black font-bold  relative text-[14px] w-[9em] h-[3em] text-center bg-gradient-to-r from-indigo-500  from-10% via-sky-700 via-30% to-indigo-500 to-90% bg-[length:400%] rounded-[30px] z-10 hover:animate-gradient-xy hover:bg-[length:100%] before:content-[''] before:absolute before:-top-[5px] before:-bottom-[5px] before:-left-[5px] before:-right-[5px] before:bg-gradient-to-r before:from-indigo-600 before:from-10% before:via-sky-500 before:via-30% before:to-pink-500 before:bg-[length:400%] before:-z-10 before:rounded-[35px] before:hover:blur-xl before:transition-all before:ease-in-out before:duration-[1s] before:hover:bg-[length:10%] active:bg-violet-700 focus:ring-violet-700">
                             Get Pack
                         </button>
-                    </a>
+                    </Link>
                 </div>
 
 
@@ -113,12 +112,12 @@ function Packes() {
                             </li>
                         </ul>
                     </div>
-                    <a href="**"
+                    <Link to="/signin"
                         className="p-4 flex justify-center items-center">
                         <button className=" cursor-pointer text-black font-bold  relative text-[14px] w-[9em] h-[3em] text-center bg-gradient-to-r from-yellow-500 from-10% via-sky-500 via-30% to-yellow-500 to-90% bg-[length:400%] rounded-[30px] z-10 hover:animate-gradient-xy hover:bg-[length:100%] before:content-[''] before:absolute before:-top-[5px] before:-bottom-[5px] before:-left-[5px] before:-right-[5px] before:bg-gradient-to-r before:from-yellow-500 before:from-10% before:via-sky-500 before:via-30% before:to-pink-500 before:bg-[length:400%] before:-z-10 before:rounded-[35px] before:hover:blur-xl before:transition-all before:ease-in-out before:duration-[1s] before:hover:bg-[length:10%] active:bg-violet-700 focus:ring-violet-700">
                             Get Pack
                         </button>
-                    </a>
+                    </Link>
                 </div>
 
 
@@ -170,12 +169,12 @@ function Packes() {
 
                         </ul>
                     </div>
-                    <a href="**"
+                    <Link to="/signin"
                         className="p-4 flex justify-center items-center">
                         <button className=" cursor-pointer text-black font-bold  relative text-[14px] w-[9em] h-[3em] text-center bg-gradient-to-r from-indigo-500  from-10% via-sky-700 via-30% to-indigo-500 to-90% bg-[length:400%] rounded-[30px] z-10 hover:animate-gradient-xy hover:bg-[length:100%] before:content-[''] before:absolute before:-top-[5px] before:-bottom-[5px] before:-left-[5px] before:-right-[5px] before:bg-gradient-to-r before:from-indigo-600 before:from-10% before:via-sky-500 before:via-30% before:to-pink-500 before:bg-[length:400%] before:-z-10 before:rounded-[35px] before:hover:blur-xl before:transition-all before:ease-in-out before:duration-[1s] before:hover:bg-[length:10%] active:bg-violet-700 focus:ring-violet-700">
                             Get Pack
                         </button>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>
