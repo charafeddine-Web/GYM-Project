@@ -21,7 +21,7 @@ export default function Sidebar() {
     <div className="flex h-screen fixed">
       {/* Sidebar */}
       <div
-        className={`fixed top-0 left-0 h-full w-50 bg-gradient-to-br from-teal-500 to-teal-900 p-6 pt-8 shadow-lg transition-transform transform ${
+        className={`fixed top-0 left-0 h-full w-50 bg-gradient-to-br rounded-r-3xl from-teal-500 to-teal-900 p-6 pt-8 shadow-lg transition-transform transform ${
           isOpen ? 'translate-x-0' : '-translate-x-full'
         } lg:translate-x-0 lg:relative`}
       >

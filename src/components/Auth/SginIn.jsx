@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../AuthContext';
+// SignIn.js
 
 function SignIn() {
     const [email, setEmail] = useState('');
@@ -12,7 +13,6 @@ function SignIn() {
         e.preventDefault();
         console.log('Email:', email);
         console.log('Password:', password);
-
         login();
 
         navigate('/dashboard');

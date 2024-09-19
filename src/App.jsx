@@ -11,7 +11,7 @@ import About from './components/About';
 import Comment from './components/Comment';
 import App_Sidebar from './Components_Admin/App_Sidebar';
 import { AuthProvider, useAuth } from './AuthContext'; 
-
+import Sidebaradmin from './Adminstarteur/Sidebaradmin'
 // PrivateRoute component for protected routes
 const PrivateRoute = ({ children }) => {
   const { isAuthenticated } = useAuth();
@@ -42,11 +42,12 @@ function App() {
             path="/dashboard/*"
             element={
               <PrivateRoute>
-                <App_Sidebar />
+                <Sidebaradmin />
               </PrivateRoute>
             }
           />
         </Routes>
+        <Sidebaradmin/>
       </Router>
     </AuthProvider>
   );
